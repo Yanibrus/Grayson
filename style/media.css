@@ -1,0 +1,122 @@
+@media (max-width: 1140px) {
+    .fashion__card,
+    .product__column {
+        width: calc(25% - 15px);
+
+    }
+}
+
+@media (max-width: 992px) {
+    .header__nav .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .fashion__cards,
+    .product__row {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .fashion__card,
+    .product__column {
+        width: calc(50% - 15px);
+
+    }
+    .column__product{
+        max-width: unset;
+    }
+    .footer__row{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+    }
+    .footer__column{
+        
+        max-width: calc(50% - 15px);
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .header__intro-title {
+        padding: 15px 30px;
+        font-size: 40px;
+        text-align: center;
+        line-height: 55px;
+    }
+    .fashion__card-txt{
+        bottom: 0;
+        transform: rotate(0);
+    }
+    .column__product-menu{
+        bottom: 0;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .header__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .fashion__cards{
+        gap: 10px;
+    }
+    .fashion__card{
+        width: calc(50% - 5px);
+    }
+    .product__column{
+        width: 60%;
+    }
+    .product__row{
+        justify-content: center;
+    }
+    
+    .footer__column{
+        max-width: 80%;
+       
+    }
+    .footer__column-title{
+        font-size: 25px;
+        line-height: 22px;
+        margin-bottom: 25px;
+        text-align: center;
+
+    }
+    
+    .footer__column-list{
+        align-items: center;
+    }
+    .footer__column-link{
+        font-size: 18px;
+        line-height: 15px;
+    }
+    .footer__column-text{
+        text-align: center;
+
+    }
+    .footer__column-form{
+        justify-content: center;
+    }
+    .footer__column-icons{
+        justify-content: center;
+    }
+
+ 
+
+}
+
+@media (max-width: 400px){
+    .fashion__card,
+    .product__column{
+        width: 100%;
+    }
+    .footer__column{
+        max-width: 100%;
+       
+    }
+}
